@@ -37,13 +37,56 @@ body{
 }
 .container__heading{
     font-size: 1rem;
+    color: hsl(217, 19%, 35%);
 }
 
 .container__para{
     margin:1rem 0 2rem 0;
+    color:hsl(212, 23%, 69%);
 }
 
 .avatar{
     border-radius: 50%;
-    width:50px;
+    width:45px;
+    margin-right: -50px;
+}
+
+.container__last-section{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+}
+
+.avatar__name-block{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.avatar__name{
+    font-weight:700;
+    color: hsl(217, 19%, 35%);
+
+}
+
+.avatar__date{
+    color:hsl(212, 23%, 69%);
+
+}
+
+.container__share-icon{
+    width:13px;
+}
+
+.container__share-icon-block{
+    background-color: hsl(210, 46%, 95%);
+    width:30px; 
+     height:30px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;  
+    padding:.1rem .4rem;
+    align-self: center;
 }
