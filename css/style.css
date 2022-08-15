@@ -40,5 +40,10 @@ body{
 }
 
 .container__para{
-    margin-top:1rem;
+    margin:1rem 0 2rem 0;
+}
+
+.avatar{
+    border-radius: 50%;
+    width:50px;
 }
