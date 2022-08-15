@@ -18,7 +18,7 @@ body{
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
-    padding:4rem 1rem;
+    padding:4rem 1.7rem;
 
 }
 .container{
@@ -27,14 +27,18 @@ body{
 }
 
 .image{
-    width:90vw;
+    width:100%;
     object-fit: cover;
-}
-.container-image-block{
-    height:400px;
 }
 
 .container__section{
     padding:2rem;
     background-color: white;
+}
+.container__heading{
+    font-size: 1rem;
+}
+
+.container__para{
+    margin-top:1rem;
 }
