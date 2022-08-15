@@ -38,11 +38,13 @@ body{
 .container__heading{
     font-size: 1rem;
     color: hsl(217, 19%, 35%);
+    line-height: 1.5;
 }
 
 .container__para{
     margin:1rem 0 2rem 0;
     color:hsl(212, 23%, 69%);
+    line-height: 1.5;
 }
 
 .avatar{
