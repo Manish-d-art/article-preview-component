@@ -12,6 +12,22 @@ body{
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
 }
+
+@media (max-width:310px) {
+    .container{
+        
+        width:265px !important;
+     }
+     .avatar{
+        width:40px !important;
+        margin-right: 0 !important;
+    }
+    .contanier-image-block{
+        height: 185px !important;
+    }
+    
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -24,6 +40,11 @@ body{
 .container{
    display: flex;
    flex-direction: column;
+   width:321px;
+}
+
+.contanier-image-block{
+    height: 212px;
 }
 
 .image{
