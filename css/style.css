@@ -74,6 +74,7 @@ body{
    display: flex;
    flex-direction: column;
    width:321px;
+   position: relative;
 }
 
 .contanier-image-block{
@@ -154,4 +155,12 @@ body{
 /* js section */
 .hidden{
     display:none;
+}
+.social-media-block{
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    left:-1px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
 }
