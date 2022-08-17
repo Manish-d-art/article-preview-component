@@ -42,13 +42,18 @@ body{
         object-fit: cover !important;
         height:284px;
         object-position:left;
-        
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px !important;
     }
     .container__para {
         margin: 1rem 0 1rem 0 !important;
     }
     .container__section{
         padding:2rem 2.4rem !important;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px !important;
+        border-top-right-radius: 10px;
     }
 
     .avatar__name-block {
@@ -78,11 +83,15 @@ body{
 .image{
     width:100%;
     object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .container__section{
     padding:2rem;
     background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .container__heading{
     font-size: 1rem;
