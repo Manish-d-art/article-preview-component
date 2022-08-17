@@ -35,7 +35,7 @@ body{
     
 }
 @media (min-width:992px) {
-
+  
 
     .container{
         flex-direction: row !important;
@@ -206,4 +206,8 @@ body{
 
 .hidden{
     display:none;
+}
+
+.social-media-block-desktop{
+    
 }
