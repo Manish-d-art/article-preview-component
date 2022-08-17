@@ -25,9 +25,18 @@ body{
     .contanier-image-block{
         height: 185px !important;
     }
+    /* js */
+    .twitter-icon{
+        margin:0 !important;
+    }
+    .pin-icon{
+        margin-right: 20px !important;
+    }
     
 }
 @media (min-width:992px) {
+
+
     .container{
         flex-direction: row !important;
         width:725px !important;
@@ -138,6 +147,7 @@ body{
 
 .container__share-icon{
     width:13px;
+    cursor: pointer;
 }
 
 .container__share-icon-block{
@@ -153,9 +163,7 @@ body{
 }
 
 /* js section */
-.hidden{
-    display:none;
-}
+
 .social-media-block{
     background-color: hsl(217, 19%, 35%);
     position: absolute;
@@ -183,6 +191,7 @@ body{
     border-radius: 50%;
     padding:1.1rem 1.1rem;
     align-self: center;
+    
 }
 .share-icon{
     filter:invert(1) sepia(2) brightness(2);
@@ -193,4 +202,8 @@ body{
 }
 .pin-icon{
     margin-right: 30px;
+}
+
+.hidden{
+    display:none;
 }
