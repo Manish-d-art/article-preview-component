@@ -150,3 +150,8 @@ body{
     padding:.1rem .4rem;
     align-self: center;
 }
+
+/* js section */
+.hidden{
+    display:none;
+}
