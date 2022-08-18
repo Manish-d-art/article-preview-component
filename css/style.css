@@ -193,17 +193,16 @@ body{
 .social-media-block{
     background-color: hsl(217, 19%, 35%);
     position: absolute;
-    left:-1px;
-    width:100%;
+    bottom: -1px;
+    left: 0.1px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    padding:1rem 1.3rem;
+    padding: 1.3rem 1.3rem;
     align-items: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    transition: all 0.4s ease-in-out;
-    /* height:0;
-    overflow: hidden; */
+    
 }
 .share{
     color:hsl(212, 23%, 69%);
@@ -235,6 +234,5 @@ body{
 
 .hidden{
     display:none;
-
 }
 
