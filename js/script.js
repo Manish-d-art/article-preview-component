@@ -5,7 +5,5 @@ const lastSection=document.querySelector('.container__last-section');
 const jsFooter=document.querySelector('.social-media-block');
 
 shareBtn.addEventListener('click' , function(){
-    jsFooter.style.transition="5s";
     jsFooter.classList.remove('hidden');
-    lastSection.classList.add('hidden');
 })
