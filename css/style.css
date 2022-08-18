@@ -68,6 +68,32 @@ body{
     .avatar__name-block {
         margin-left: -84px;
     }
+    /* 1440px */
+    .social-media-block{
+        background-color: hsl(217, 19%, 35%);
+        position: absolute;
+        left:550px !important;
+        top:135px;
+        width:30% !important;
+        justify-content: space-around;
+        padding:1rem 1rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        justify-content: space-evenly !important;
+       
+    }
+
+    .twitter-icon{
+        margin:0 !important;
+    }
+    .pin-icon{
+        margin-right: 0px !important;
+    }
+
+    .share-block{
+        display: none !important;
+    }
+
 }
 
 .main{
@@ -175,6 +201,9 @@ body{
     align-items: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    /* height:0;
+    overflow: hidden; */
 }
 .share{
     color:hsl(212, 23%, 69%);
@@ -206,8 +235,6 @@ body{
 
 .hidden{
     display:none;
+
 }
 
-.social-media-block-desktop{
-    
-}
