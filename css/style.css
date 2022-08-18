@@ -8,7 +8,7 @@
 
 }
 body{
-    background-color: hsl(210, 46%, 95%);
+    background-color: hsl(212deg 25% 85%);
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
 }
@@ -49,10 +49,9 @@ body{
     .image{
         width:292px !important;
         object-fit: cover !important;
-        height:284px;
+        height:286px;
         object-position:left;
         border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
         border-top-right-radius: 0px !important;
     }
     .container__para {
@@ -60,7 +59,6 @@ body{
     }
     .container__section{
         padding:2rem 2.4rem !important;
-        border-bottom-right-radius: 10px;
         border-bottom-left-radius: 0px !important;
         border-top-right-radius: 10px;
     }
@@ -73,25 +71,42 @@ body{
         background-color: hsl(217, 19%, 35%);
         position: absolute;
         left:550px !important;
-        top:135px;
-        width:30% !important;
+        top:128px;
+        width:35% !important;
+        height:57px;
         justify-content: space-around;
         padding:1rem 1rem;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         justify-content: space-evenly !important;
-       
+        box-shadow: 0px 10px 9px -3px hsl(217deg 19% 35% / 50%);
     }
 
     .twitter-icon{
-        margin:0 !important;
+        margin:0 15px !important;
     }
     .pin-icon{
-        margin-right: 0px !important;
+        margin-right: -25px !important;
     }
 
     .share-block{
         display: none !important;
+    }
+
+    .share{
+       margin-right:20px !important;
+    }
+
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid hsl(217, 19%, 35%);
+        position:relative;
+        top:30px;
+        right:85px;
+        filter:drop-shadow(0px 5px 10px hsl(217deg 19% 35% / 50%));
     }
 
 }
@@ -110,6 +125,11 @@ body{
    flex-direction: column;
    width:321px;
    position: relative;
+   border-radius: 10px;
+   box-shadow:  0px 5px 20px -1px rgba(126, 131, 138, 0.5),
+                0px 5px 20px -11px rgba(126, 131, 138, 0.5),
+                0px 5px 20px -1px rgba(126, 131, 138, 0.5);
+
 }
 
 .contanier-image-block{
@@ -124,7 +144,7 @@ body{
 }
 
 .container__section{
-    padding:2rem;
+    padding:2rem 2rem 1rem 2rem;
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -136,9 +156,10 @@ body{
 }
 
 .container__para{
-    margin:1rem 0 2rem 0;
+    margin:1rem 0 1.5rem 0;
     color:hsl(212, 23%, 69%);
     line-height: 1.5;
+    font-weight: 500;
 }
 
 .avatar{
@@ -150,7 +171,6 @@ body{
 .container__last-section{
     display: flex;
     justify-content: space-between;
-    justify-content: baseline;
 }
 
 .avatar__name-block{
@@ -175,6 +195,10 @@ body{
     width:13px;
     cursor: pointer;
 }
+.container__share-icon-block:hover{
+    background-color:hsl(212, 23%, 69%);
+    transition: .5s;
+}
 
 .container__share-icon-block{
     background-color: hsl(210, 46%, 95%);
@@ -193,9 +217,9 @@ body{
 .social-media-block{
     background-color: hsl(217, 19%, 35%);
     position: absolute;
-    bottom: -1px;
-    left: 0.1px;
-    width: 100%;
+    bottom: -3px;
+    left: -0.2px;
+    width: 100.5%;
     display: flex;
     justify-content: space-around;
     padding: 1.3rem 1.3rem;
@@ -207,6 +231,8 @@ body{
 .share{
     color:hsl(212, 23%, 69%);
     letter-spacing: 4px;
+    font-weight: 500;
+    margin-right:10px;
 }
 
 .share-block{
@@ -217,7 +243,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    padding:1.1rem 1.1rem;
+    padding:1rem 1rem;
     align-self: center;
     
 }
@@ -226,7 +252,7 @@ body{
 }
 
 .twitter-icon{
-    margin:0 -7px;
+    margin:0 8px;
 }
 .pin-icon{
     margin-right: 30px;
